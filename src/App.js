@@ -85,7 +85,7 @@ class App extends Component {
           <Grid container spacing={2} style={{paddingTop:16}}>
             <Grid item xs={12}>
               <Button variant='outlined' onClick={() => this.download()}>
-                Donwload
+                Download
               </Button>
             </Grid>
           </Grid>
