@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "qrcodegenerator",
   server: {
     port: 3000,
   },
@@ -10,7 +11,7 @@ export default defineConfig({
     port: 8080,
   },
   build: {
-    outDir: "docs",
+    outDir: "dist",
   },
   plugins: [react()],
 });
