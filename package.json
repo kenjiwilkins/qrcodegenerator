@@ -11,10 +11,13 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "homepage": "https://kenjiwilkins.github.io/qrcodegenerator/",
   "eslintConfig": {
     "extends": "react-app"
   },
